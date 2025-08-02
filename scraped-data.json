@@ -1,0 +1,206 @@
+{
+  "appInfo": {
+    "title": "Kaun banaega Green Flag - Learn Healthy Relationships",
+    "url": "https://greenflag-redflag-guide.lovable.app/",
+    "tagline": "Learn to spot red flags & celebrate green flags in relationships! 💚",
+    "description": "An interactive web application that helps users learn to identify healthy and unhealthy relationship behaviors through real-life scenarios."
+  },
+  "landingPage": {
+    "hero": {
+      "title": "🚩 Kaun banaega Green Flag",
+      "subtitle": "Learn to spot red flags & celebrate green flags in relationships! 💚",
+      "image": "Diverse group of people having friendly conversations"
+    },
+    "howItWorks": {
+      "title": "How it works:",
+      "steps": [
+        {
+          "icon": "💬",
+          "title": "Read the chat",
+          "description": "See real-life relationship scenarios"
+        },
+        {
+          "icon": "👈👉",
+          "title": "Swipe your answer",
+          "description": "Green flag (right) or Red flag (left)"
+        },
+        {
+          "icon": "💡",
+          "title": "Learn & reflect",
+          "description": "Get insights on healthy relationships"
+        }
+      ]
+    },
+    "cta": {
+      "button": "Start Learning! 🚀",
+      "subtitle": "10 scenarios • Build healthier relationships"
+    }
+  },
+  "scenarios": [
+    {
+      "id": 1,
+      "title": "Dress Code Drama",
+      "characters": ["Priya", "Kabir"],
+      "status": "Not Attempted",
+      "conversation": [
+        {
+          "speaker": "Kabir",
+          "text": "Hey Priya, can I say something honestly? I feel a little uncomfortable when people stare. I know it's my own insecurity."
+        },
+        {
+          "speaker": "Priya",
+          "text": "Thanks for telling me. I feel confident in what I wear, but I'm glad we can talk about this."
+        },
+        {
+          "speaker": "Kabir",
+          "text": "I trust you — just working through my feelings."
+        }
+      ],
+      "correctAnswer": "green",
+      "feedback": {
+        "explanation": "It's okay to feel insecure — what matters is how you communicate it, with respect.",
+        "truthToKeep": "You can be vulnerable without being controlling.",
+        "reflection": "Have you ever shared something uncomfortable without making it the other person's fault?"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Secret Sharing",
+      "characters": ["Rani", "Meena"],
+      "status": "Not Attempted",
+      "conversation": [
+        {
+          "speaker": "Rani",
+          "text": "You won't believe what Priya told me. Full gossip!"
+        },
+        {
+          "speaker": "Meena",
+          "text": "Wait, didn't she say that in confidence?"
+        },
+        {
+          "speaker": "Rani",
+          "text": "Yeah, but you're my bestie. It's fine!"
+        }
+      ],
+      "correctAnswer": "red",
+      "feedback": {
+        "explanation": "Sharing secrets without consent breaks trust.",
+        "truthToKeep": "Being close to someone doesn't mean breaking others' trust.",
+        "reflection": "What does it take to build broken trust?"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Love or Isolation?",
+      "characters": ["Arjun", "Diya"],
+      "status": "Not Attempted"
+    },
+    {
+      "id": 4,
+      "title": "Private Stalker",
+      "characters": ["Aman", "Reema"],
+      "status": "Not Attempted"
+    },
+    {
+      "id": 5,
+      "title": "Fast Forward Intensity",
+      "characters": ["Tina", "Ravi"],
+      "status": "Not Attempted"
+    },
+    {
+      "id": 6,
+      "title": "Good Vibes Only?",
+      "characters": ["Varun", "Neha"],
+      "status": "Not Attempted"
+    },
+    {
+      "id": 7,
+      "title": "Jokes or Jabs?",
+      "characters": ["Alok", "Rhea"],
+      "status": "Not Attempted"
+    },
+    {
+      "id": 8,
+      "title": "Privacy Please",
+      "characters": ["Ishaan", "Zoya"],
+      "status": "Not Attempted"
+    },
+    {
+      "id": 9,
+      "title": "All My Exes Were Crazy",
+      "characters": ["Tanya", "Sahil"],
+      "status": "Not Attempted"
+    },
+    {
+      "id": 10,
+      "title": "I Don't Do Feelings",
+      "characters": ["Riya", "Kunal"],
+      "status": "Not Attempted"
+    }
+  ],
+  "uiElements": {
+    "buttons": {
+      "redFlag": "✕ Red Flag",
+      "greenFlag": "💚 Green Flag",
+      "backToScenarios": "Back to Scenarios 📝",
+      "startLearning": "Start Learning! 🚀"
+    },
+    "icons": {
+      "chat": "💬",
+      "swipe": "👈👉",
+      "learn": "💡",
+      "correct": "✅",
+      "redFlag": "✕",
+      "greenFlag": "💚",
+      "truth": "💡",
+      "reflection": "🤔"
+    },
+    "feedback": {
+      "correct": "You matched it right!",
+      "greenFlag": "This is a green flag.",
+      "redFlag": "This is a red flag."
+    }
+  },
+  "designAssets": {
+    "images": [
+      "Diverse group of people having friendly conversations",
+      "Priya profile picture",
+      "Kabir profile picture",
+      "Rani profile picture",
+      "Meena profile picture",
+      "Arjun profile picture",
+      "Diya profile picture",
+      "Aman profile picture",
+      "Reema profile picture",
+      "Tina profile picture",
+      "Ravi profile picture",
+      "Varun profile picture",
+      "Neha profile picture",
+      "Alok profile picture",
+      "Rhea profile picture",
+      "Ishaan profile picture",
+      "Zoya profile picture",
+      "Tanya profile picture",
+      "Sahil profile picture",
+      "Riya profile picture",
+      "Kunal profile picture"
+    ],
+    "colors": {
+      "green": "Used for positive/healthy behaviors",
+      "red": "Used for negative/unhealthy behaviors",
+      "background": "Clean, modern interface"
+    }
+  },
+  "navigation": {
+    "scenarioSelection": "Choose a Scenario",
+    "scenarioSubtitle": "Select any scenario to practice. Each scenario is independent!",
+    "backButton": "Back button with arrow icon"
+  },
+  "metadata": {
+    "scrapedAt": "2025-08-02T05:31:50.170Z",
+    "totalScenarios": 10,
+    "completedScenarios": 1,
+    "platform": "Lovable.dev",
+    "editUrl": "https://lovable.dev/projects/a21277d8-a095-45bb-be9e-4a108abeee8f?utm_source=lovable-badge"
+  }
+} 
